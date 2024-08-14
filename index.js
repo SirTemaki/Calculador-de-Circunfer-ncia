@@ -7,7 +7,7 @@ const PI = 3.14;
 document.getElementById("mybutton").onclick = function() {
     raio = document.getElementById("myinput").value
     raio = Number(raio)
-    circum = 2 * 3.14 * raio
+    circum = 2 * PI * raio
     circo = circum
     document.getElementById('jscircum').textContent = `${circo}`
     
